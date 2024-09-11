@@ -1,0 +1,150 @@
+extends layouts/default.pug
+block title 
+    title project-2
+block main
+    //- session 1
+    section.section-1
+        .container
+            img(class="section-1__bg" src="assets/images/section-1-bg4.svg")
+            .section-1__wrap
+                .section-1__content
+                    img(src="assets/images/section-1-bg1.svg" class="section-1__bg-1")
+                    .section-1__title
+                        .section-1__title-main Thêm Một Bạn
+                        .section-1__title-sub Thêm Ngàn Niềm Vui
+                    .section-1__desc Có một con thú cưng đồng nghĩa với việc bạn có thêm niềm vui mới. Chúng tôi có hơn 200 con thú cưng khác nhau có thể đáp ứng nhu cầu của bạn!
+                    .section-1__buttons
+                        a(href="#" class="button-outline") Giới Thiệu 
+                            i(class="fa-regular fa-circle-play")
+                        a(href="#" class="button") Khám Phá Ngay
+                        img(src="assets/images/section-1-bg2.svg" class="section-1__bg2")
+                .section-1__image
+                    img(src="assets/images/section-1-bg3.svg" class="section-1__bg3")
+                    img(src="assets/images/image.png" class="section-1__image-main")
+    //- End session 1
+    //- section-2
+    section.section-2
+        .container
+            .title-box
+                .title-box__left
+                    .title-box__left__sub Có gì mới?
+                    .title-box__left__main Một Số Vật Nuôi Của Chúng Tôi
+                .title-box__right
+                    a(href="#" class="button-outline") Xem thêm
+                        i(class="fa-solid fa-angle-right")
+            .section-2__wrap
+                .section-2__wrap-box
+                    a(href="#")
+                        img(src="assets/images/sec2-image 1.jpg")   
+                        .section-2__content
+                            b(class="section-2__content__main") MO231 - Pomeraian Trắng
+                            .section-2__content-sub
+                                .section-2__content-sub-item Giống: <b> Đực </b>
+                                .section-2__content-sub-item Tuổi: <b> 02 Tháng </b>
+                            .section-2__price 6.900.000 VND
+                .section-2__wrap-box
+                    a(href="#")
+                        img(src="assets/images/sec2-image 2.jpg")    
+                        .section-2__content
+                            b(class="section-2__content__main") MO502 - Poodke Tiny Vàng
+                            .section-2__content-sub
+                                .section-2__content-sub-item Giống: <b> Cái </b>
+                                .section-2__content-sub-item Tuổi: <b> 02 Tháng </b>
+                            .section-2__price 3.900.000 VND
+                .section-2__wrap-box
+                    a(href="#")
+                        img(src="assets/images/image 3.jpg")   
+                        .section-2__content
+                            b(class="section-2__content__main") MO102 - Pooldle Tiny Sepia
+                            .section-2__content-sub
+                                .section-2__content-sub-item Giống: <b> Đực </b>
+                                .section-2__content-sub-item Tuổi: <b> 02 Tháng </b>
+                            .section-2__price 4.000.000 VND
+                .section-2__wrap-box
+                    a(href="#")
+                        img(src="assets/images/image 4.jpg")   
+                        .section-2__content
+                            b(class="section-2__content__main") MO512 - Alaskan Malamute 
+                            .section-2__content-sub
+                                .section-2__content-sub-item Giống: <b> Đực </b>
+                                .section-2__content-sub-item Tuổi: <b> 03 Tháng </b>
+                            .section-2__price 8.900.000 VND
+                .section-2__wrap-box
+                    a(href="#")
+                        img(src="assets/images/image 5.jpg") 
+                        .section-2__content
+                            b(class="section-2__content__main") MO221 - Pembroke cute 
+                            .section-2__content-sub
+                                .section-2__content-sub-item Giống:  <b> Đực </b>
+                                .section-2__content-sub-item Tuổi: <b> 03 Tháng </b>
+                            .section-2__price 7.900.000 VND       
+                .section-2__wrap-box
+                    a(href="#")
+                        img(src="assets/images/image 6.jpg")    
+                        .section-2__content
+                            b(class="section-2__content__main") MO272 - Pembroke Corgi
+                            .section-2__content-sub
+                                .section-2__content-sub-item Giống: <b> Đực </b>
+                                .section-2__content-sub-item Tuổi: <b> 02 Tháng </b>
+                            .section-2__price 9.000.000 VND
+                .section-2__wrap-box
+                    a(href="#")
+                        img(src="assets/images/image 7.jpg")
+                        .section-2__content
+                            b(class="section-2__content__main") MO123 - Pomeraian cute
+                            .section-2__content-sub
+                                .section-2__content-sub-item Giống: <b> Cái </b>
+                                .section-2__content-sub-item Tuổi: <b> 02 Tháng </b>
+                            .section-2__price 6.500.000 VND   
+                .section-2__wrap-box
+                    a(href="#")
+                        img(src="assets/images/image 8.jpg") 
+                        .section-2__content
+                            b(class="section-2__content__main") MO229 - Poodle cute
+                            .section-2__content-sub
+                                .section-2__content-sub-item Giống: <b> Đực </b>
+                                .section-2__content-sub-item Tuổi: <b> 02 Tháng </b>
+                            .section-2__price 5.000.000 VND
+            .box-bottom
+                a(href="#" class="button-outline") Xem thêm 
+                    i(class="fa-solid fa-angle-right")
+    //- End section-2
+    //- section-3
+    include partials/section-3.pug
+    //- end section-3
+    //- section-4
+    section.section-4
+        .container
+            .title-box
+                .title-box__left
+                    .title-box__left__sub Có gì mới?
+                    .title-box__left__main Kiến Thức Thú Cưng Hữu Ích
+                .title-box__right
+                    a(href="#" class="button-outline") Xem thêm 
+                        i(class="fa-solid fa-angle-right")
+            .section-4__wrap
+                .section-4__wrap__box
+                    a(href="#")
+                        img(src="assets/images/section-4-img1.jpg" class="section-4__img")
+                        .section-4__content
+                            .section-4__content__title Kiến thức thú cưng
+                            .section-4__content__main Pomeranian là gì? Cách nhận biết chó Pomeranian
+                            .section-4__content__sub Pomeranian hay còn gọi là chó Pomeranian (chó Pom) luôn nằm trong top những thú cưng dễ thương nhất. Không chỉ vậy, giống chó xiếc nhỏ nhắn, đáng yêu, thông minh, thân thiện và khéo léo.
+                .section-4__wrap__box
+                    a(href="#")
+                        img(src="assets/images/section-4-img2.jpg" class="section-4__img")
+                        .section-4__content
+                            .section-4__content__title Kiến thức thú cưng             
+                            .section-4__content__main Chế độ ăn cho chó bạn cần biết 
+                            .section-4__content__sub Việc chia khẩu phần ăn cho chó thoạt nghe có vẻ đơn giản nhưng có một số quy tắc bạn nên biết để chó cưng dễ dàng hấp thụ các chất dinh dưỡng trong khẩu phần ăn. Dành cho những người mới bắt đầu nuôi chó, đặc biệt là chó con mới sinh có sức đề kháng tương đối yếu.           
+                .section-4__wrap__box
+                    a(href="#")
+                        img(src="assets/images/section-4-img3.jpg" class="section-4__img")
+                        .section-4__content
+                            .section-4__content__title Kiến thức thú cưng
+                            .section-4__content__main Tại sao chó cắn phá đồ đạc và cách phòng ngừa hiệu quả
+                            .section-4__content__sub Chó cắn là hiện tượng phổ biến trong quá trình phát triển. Tuy nhiên, không ai muốn thấy đồ đạc, vật dụng quan trọng của mình bị chó cắn.
+            .box-bottom
+                a(href="#" class="button-outline") Xem thêm 
+                    i(class="fa-solid fa-angle-right")
+    //- End section-4
